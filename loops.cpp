@@ -24,5 +24,5 @@ int main()
         k++;
     } while (k <= 5);
     cout<<"hw+rrrrrrrrrrrrrrrrrrrrrrr";
-    cout<<"nerwrefsgsfb";
+    
 }
