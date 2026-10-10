@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    // for loop
+// for loop
     cout << "beloe mention is for loop\n";
     for (int i = 1; i <= 5; i++)
     {
