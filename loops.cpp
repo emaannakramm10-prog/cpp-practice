@@ -23,4 +23,5 @@ int main()
         cout << " number " << k << " is in your display: " << endl;
         k++;
     } while (k <= 5);
+    cout<<"hw+rrrrrrrrrrrrrrrrrrrrrrr";
 }
