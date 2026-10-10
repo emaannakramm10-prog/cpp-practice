@@ -8,13 +8,11 @@ int main()
         cout << " number " << i << " is in your display " << endl;
         cout << i;
     }
-            cout<<"\nbelow mentioned is do-while loop\n";
-    int k=1;
-     do
-     {
-     cout << " number " << k << " is in your display: " << endl;
-            k++;
-     } while (k<=5);
-     
-     
+    cout << "\nbelow mentioned is do-while loop\n";
+    int k = 1;
+    do
+    {
+        cout << " number " << k << " is in your display: " << endl;
+        k++;
+    } while (k <= 5);
 }
