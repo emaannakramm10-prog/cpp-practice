@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+//struct stores hetreogeneous datatypes
 struct Employee
 {
     string name;
@@ -34,4 +35,6 @@ int main()
     cout << "Intially, Person 1 inputed: " << person1.integer_input << endl;
     person1.float_input = 14.05f;
     cout << "Afterrward, Person 1 entered: " << person1.float_input;
+    //enum's gives index value to variables
+
 }
