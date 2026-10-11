@@ -22,4 +22,16 @@ int main()
     cout << "Donald scored " << grade[2] << endl;
     cout << "Johny scored " << grade[3] << endl;
     cout << "Kaif scored " << grade[4] << endl;
+
+    // union divides data
+    union Input
+    {
+        int integer_input;
+        float float_input;
+    };
+    Input person1;
+    person1.integer_input = 14;
+    cout << "Intially, Person 1 inputed: " << person1.integer_input << endl;
+    person1.float_input = 14.05f;
+    cout << "Afterrward, Person 1 entered: " << person1.float_input;
 }
