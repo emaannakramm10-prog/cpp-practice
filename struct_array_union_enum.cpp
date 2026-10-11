@@ -36,4 +36,8 @@ int main()
     person1.float_input = 14.05f;
     cout << "Afterrward, Person 1 entered: " << person1.float_input;
     // enum's gives index value to variables
+    enum order_status {collected , shipped , delivered};
+    order_status packet_1 = shipped;
+    cout<<"\nYour order status number is: "<<packet_1;
+
 }
