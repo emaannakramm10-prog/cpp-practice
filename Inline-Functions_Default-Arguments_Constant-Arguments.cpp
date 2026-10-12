@@ -13,6 +13,7 @@ int main(){
     cout<<product(a,b)<<endl;
     cout<<product(a,b)<<endl;
     cout<<product(a,b)<<endl;
+//static variable
 
     return 0;
 }
