@@ -11,11 +11,13 @@ int main()
     };
     Employee E1 = {"Emaan Akram", 1435.06};
     Employee E2 = {"Elizabeth", 354.05};
+    Employee E3 = {"John" , 102224234};
     cout << "Employee's name is " << E1.name << endl
          << "Employee's salary is " << E1.salary << endl;
     cout << "Employee's name is " << E2.name << endl
          << "Employee's salary is " << E2.salary;
-
+    cout << "Employee's name is " << E3.name << endl
+         << "Employee's salary is " << E3.salary;
     // array's store similar datatype
     string grade[5] = {"A+", "A", "B+", "C-", "F"};
     cout << "Emaan scored " << grade[0] << endl;
@@ -35,7 +37,7 @@ int main()
     cout << "Intially, Person 1 inputed: " << person1.integer_input << endl;
     person1.float_input = 14.05f;
     cout << "Afterrward, Person 1 entered: " << person1.float_input;
-    
+
     // enum's gives index value to variables
     enum order_status {collected , shipped , delivered};
     order_status packet_1 = shipped;
