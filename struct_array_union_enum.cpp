@@ -40,7 +40,11 @@ int main()
 
     // enum's gives index value to variables
     enum order_status {collected , shipped , delivered};
-    order_status packet_1 = shipped;
-    cout<<"\nYour order status number is: "<<packet_1;
+
+    order_status box = collected;
+    order_status bus = shipped;
+    cout<<"\nYour order status number on Monday is: "<<box;
+    cout<<"\nYour order status number on Teusday is: "<<bus;
+
 
 }
