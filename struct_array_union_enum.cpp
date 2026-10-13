@@ -43,8 +43,10 @@ int main()
 
     order_status box = collected;
     order_status bus = shipped;
+    order_status home = delivered;
     cout<<"\nYour order status number on Monday is: "<<box;
     cout<<"\nYour order status number on Teusday is: "<<bus;
+    // cout<<"\nYour order status number on Teusday is: "<<bus;
 
 
 }
