@@ -46,7 +46,6 @@ int main()
     order_status home = delivered;
     cout<<"\nYour order status number on Monday is: "<<box;
     cout<<"\nYour order status number on Teusday is: "<<bus;
-    // cout<<"\nYour order status number on Teusday is: "<<bus;
-
+    cout<<"\nYour order status number on Wednesday is: "<<home;
 
 }
