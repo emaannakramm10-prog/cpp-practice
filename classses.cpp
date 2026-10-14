@@ -11,10 +11,15 @@ class students
         cin>>id;
         cin>>name;
     }
-    
+    void display(){
+        cout<<id;
+        cout<<name;
+    }
     };
 int main(){
-  
+    students s1;
+       s1.intputt();
+    s1.display();
 
    
     
