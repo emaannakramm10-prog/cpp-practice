@@ -10,6 +10,6 @@ using namespace std;
 int main(){
     int n;
     cout<<"Enter a number: \n";
-
+    cout<<"Factorial of your number "<<n<<" will be: "<<factorial(n);
     return 0;
 }
