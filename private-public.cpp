@@ -19,5 +19,11 @@ using namespace std;
      }
     };
 int main(){
+    number two;
+    //a=10; private can only be access through meethods inside that class
+    two.d=40;
+    two.e=50;
+    two.set_data(10,20,30);
+    two.display();
     
     return 0;}
