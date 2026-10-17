@@ -19,25 +19,23 @@ using namespace std;
  }
 void cond2 :: binary(void){
     for(int i=0;i<n.length(); i++){
-        if(n.at(i)!= '0' ||  n.at(i)!= '1')
-        cout<<"Character not valid at index "<<i;
-        else 
-        exit(0);
+        if(n.at(i)!= '0' &&  n.at(i)!= '1'){
+        cout<<"Character not valid at index ";
+        exit(0);}
     }
 }
  void cond2 :: composite(void){
         binary();
-         for(int i=0;i<n.length(); i++){
+        for(int i=0;i<n.length(); i++){
         if(n.at(i)== '0' )
         n.at(i)='1';
         else
         n.at(i)='0';
-
         }
     }
 void cond2 :: display(void){
    for(int i=0;i<n.length(); i++)
-    { cout<<endl<<n.at(i);  }}
+    { cout<<n.at(i);  }}
 
 int main(){
     cond2 a;
