@@ -35,10 +35,10 @@ bool binary(){
     
 };
 
-// int main(){
-//     cond2 a;
-//     a.enter();
-//    // a.binary();
-//     a.composite();    
-//     return 0;
-// }
+int main(){
+    cond2 a;
+    a.enter();
+   // a.binary();
+    a.composite();    
+    return 0;
+}
