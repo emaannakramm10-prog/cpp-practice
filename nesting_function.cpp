@@ -1,44 +1,49 @@
 //nesting functions
 //checking if input isbinary and creating 1st composite of it
 #include <iostream>
+#include <string>
 using namespace std;
   class cond2 {
-    public:
+    private:
     string n;
-    void enter();
-    bool binary();
-    void composite();
-
-    
+    void binary(void);
+    public:
+    void enter(void);
+    void composite(void);
+    void display(void);
+  };
  
- void enter(){
+ void cond2 :: enter(void){
         cout<<"enter a number: \n";
         cin>>n;
  }
-bool binary(){
+void cond2 :: binary(void){
     for(int i=0;i<n.length(); i++){
-        if(n.at(i)== '0' ||  n.at(i)== '1')
-        cout<<"Character at index "<<i<<" is binary\n";
+        if(n.at(i)!= '0' ||  n.at(i)!= '1')
+        cout<<"Character not valid at index "<<i;
+        else 
+        exit(0);
     }
 }
- void composite(){
+ void cond2 :: composite(void){
         binary();
          for(int i=0;i<n.length(); i++){
         if(n.at(i)== '0' )
         n.at(i)='1';
         else
         n.at(i)='0';
-       
+
+        }
     }
-     cout<<n;
-} 
-    
-};
+void cond2 :: display(void){
+   for(int i=0;i<n.length(); i++)
+    { cout<<endl<<n.at(i);  }}
 
 int main(){
     cond2 a;
     a.enter();
    // a.binary();
     a.composite();    
+    a.display();
     return 0;
-}
+}   
