@@ -1,7 +1,16 @@
 #include <iostream>
 using namespace std;
+class person
+{
 
-int main(){
-    
-    return 0;
+public:
+    person()
+    {
+        cout << "this is parent class constructor\n";
+    }
+};
+
+int main()
+{
+
 }
