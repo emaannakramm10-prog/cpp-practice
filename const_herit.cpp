@@ -9,6 +9,14 @@ public:
         cout << "this is parent class constructor\n";
     }
 };
+class student : public person
+{
+public:
+    student()
+    {
+        cout << "this is child class constructor\n";
+    }
+};
 
 int main()
 {
