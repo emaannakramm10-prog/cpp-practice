@@ -10,3 +10,13 @@ public:
          width=w;
          return lenght*width;        
         }};
+int main()
+{
+    float a,b;
+rectangle cal1;
+cout<<"Enter the lenght: \n";
+cin>>a;
+cout<<"Enter width: \n";
+cin>>b;
+cout<<"Area of the rectangle is "<<cal1.area(a,b)<<" meter sq";
+}
